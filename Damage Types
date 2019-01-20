@@ -1,0 +1,7 @@
+Types of damage. 
+
+Slashing. Swinging a weapon to do Bleeding Damage and Sharp damage.
+
+Sharp. General Attack type. Causes Bleeding and general damage. 
+
+Blunt. Blunt damage does internal trauma and knockback. It can cause internal bleeding damage if the attack is high enough. 
