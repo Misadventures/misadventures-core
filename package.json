@@ -1,0 +1,30 @@
+{
+  "name": "misadventures-core",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build; jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misadventures/misadventures-core.git"
+  },
+  "keywords": [
+    "misadventures"
+  ],
+  "author": "Coby Sampson, Jacob Shuman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Misadventures/misadventures-core/issues"
+  },
+  "homepage": "https://github.com/Misadventures/misadventures-core#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "@types/node": "^10.12.18",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.2.4"
+  }
+}
