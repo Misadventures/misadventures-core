@@ -1,13 +1,15 @@
 import * as DEFAULTS from "./defaults";
+import { CharacterRace } from "./race/characterRace";
 
 export interface CharacterInterface {
   // General information
-  readonly name?: string;
-  readonly age?: number;
-  readonly gender?: CharacterGender;
+  readonly name: string;
+  readonly age: number;
+  readonly gender: CharacterGender;
+  readonly race: CharacterRace;
 
   // Stats
-  readonly health?: number;
+  readonly health: number;
 }
 
 export interface CharacterOptionsInterface extends CharacterInterface {}
